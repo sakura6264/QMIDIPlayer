@@ -157,6 +157,7 @@ void SDLRender::signalReceiver(SignalType signal, int val) {
       this->timer = timerto;
       tasksindex = 0;
       emit callSlider(timerto);
+      this->midiout->stopAll();
     }
     break;
   case SetAdd:
@@ -168,6 +169,7 @@ void SDLRender::signalReceiver(SignalType signal, int val) {
       this->timer = timerto;
       tasksindex = 0;
       emit callSlider(timerto);
+      this->midiout->stopAll();
     }
     break;
   }
