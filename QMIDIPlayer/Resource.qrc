@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/icon"/>
+    <qresource prefix="/">
+        <file>res/back.svg</file>
+        <file>res/circle.svg</file>
+        <file>res/diamond.svg</file>
+        <file>res/forward.svg</file>
+        <file>res/mute.svg</file>
+        <file>res/pause.svg</file>
+        <file>res/play.svg</file>
+        <file>res/previous.svg</file>
+        <file>res/volume-loud.svg</file>
+        <file>res/volume-off.svg</file>
+        <file>res/rectangle.svg</file>
+    </qresource>
+</RCC>
